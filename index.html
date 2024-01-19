@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+     <head>
+    <title>Starre</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<script src="starre.js"></script>
+    </head>
+    <body>
+      <center>
+    <h1 class="header">
+        Starre <sup>
+    <img src="envelope.png">
+        </sup>
+    </h1>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+     <img src="Starre.png" class="logo">
+     <h3>Nova forma de se comunicar</h3>
+     <h4>Junte-se a Starre</h4>
+     <div class="form-group" >
+         <label>Nome de usuário:</label>
+         <input type="text" id="userName" class="form-control" placeholder="Nome de usuário">
+     </div>
+     <button id="loginButton" class="btn btn-primary" onclick="addUser()">Log in</button>
+    <br>
+    <br>
+    </div>
+      </center>
+    </body>
+</html>
